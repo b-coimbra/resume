@@ -2,6 +2,7 @@
 #+AUTHOR: index (github.com/0-l)
 #+INFOJS_OPT: view:info toc:nil path:./lib/script.js
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./lib/style.css" />
+#+TITLE: resume
 
 * Header
   :PROPERTIES:
