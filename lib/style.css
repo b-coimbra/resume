@@ -25,7 +25,8 @@ body {
 .header h2[id^='org'],
 #postamble .validation,
 .person-name > h3,
-.short-description > h4 {
+.short-description > h4,
+.title {
 	display: none;
 }
 
