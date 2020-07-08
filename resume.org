@@ -1,0 +1,143 @@
+#+OPTIONS: html-style:nil html-postamble:nil
+#+AUTHOR: index (github.com/0-l)
+#+INFOJS_OPT: view:info toc:nil path:./lib/script.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./lib/style.css" />
+
+* Header
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: header
+  :END:
+
+** Name
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: person-name header-item
+   :END:
+
+   Bruno Coimbra
+
+*** Short description
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: short-description
+	:END:
+
+	Full-stack developer
+
+** Birthday/Nacionality
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: header-item birthday-nacionality
+   :END:
+
+   August 24th, 1988
+
+   Portuguese - Brasil
+
+** Address
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: header-item address
+   :END:
+
+   29 South High Street
+
+   Yonkers, NY 10701
+
+* Info
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: info
+  :HTML_HEADLINE_CLASS: info-title
+  :END:
+
+** Contact
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: info-item
+   :END:
+
+*** email
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: email info-description
+	:END:
+
+	mail@gmail.com
+
+*** phone
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: phone info-description
+	:END:
+
+	(99) 9999-9999
+
+** Social
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: info-item
+   :END:
+
+*** linkedin
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: linkedin info-description
+	:END:
+
+	no-one
+
+*** github
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: github info-description
+	:END:
+
+	0-l
+
+** Languages
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: info-item languages
+   :END:
+
+   - *Portuguese*: native
+   - *English*: advanced
+
+* Timeline
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: timeline
+  :END:
+
+** Massachussetts Institute of Technology
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: timeline-item now
+   :END:
+
+   #+ATTR_HTML: :date 2017 - now
+   Computer Science degree
+
+** Microsoft
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: timeline-item
+   :END:
+
+   #+ATTR_HTML: :date 2015 - 2016
+   Internship
+
+** Le Wagon
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: timeline-item
+   :END:
+
+   #+ATTR_HTML: :date 2014 - 2016
+   Coding bootcamp
+
+* Knowledge
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: knowledge
+  :END:
+
+  I have an aptitude for designing prototypes and mockups for websites and applications.
+  Thus, for now, the path of a web developer I follow.
+  I'm also passionate about writing little shell utilities and automation tools to make life easier.
+
+  I had my fair share of working with SCRUM for several sprint cycles.
+
+* Skills
+  :PROPERTIES:
+  :CUSTOM_ID: skills
+  :END:
+
+  - *Git* Version control
+  - *Linux* SSH, terminal tools et al
+  - *Photoshop* Prototyping, general design.
+  - *Docker* Managing microsservices

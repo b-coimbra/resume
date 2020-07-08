@@ -1,0 +1,9 @@
+#+TITLE: resume
+
+This is a model that I created to easily manage my resume with org-mode.
+
+[[./screenshots/resume.png]]
+
+* Usage
+
+  Upon any changes made to the =resume.org= file, you must export it to HTML again (=C-e h h=).
