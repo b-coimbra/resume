@@ -31,6 +31,7 @@ body {
 }
 
 #content {
+	position: relative;
 	padding: 1% 3% 0;
 	height: 100%;
 	margin: 0 auto;
@@ -41,7 +42,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 5px;
+	width: 0;
 	background: transparent;
 }
 
@@ -330,4 +331,33 @@ body {
 
 .knowledge p:not(:last-child) {
 	margin-bottom: 20px;
+}
+
+.scrollbar {
+    height: 150px;
+    position: absolute;
+    background: black;
+    width: 3px;
+    bottom: 0;
+    top: 0;
+    right: 20px;
+    margin: auto;
+}
+
+.scrollbar .scrollbar-thumb {
+	--outline: #000;
+    background: white;
+    width: 5px;
+    height: 50px;
+    box-shadow: inset 0 0 0 3px var(--outline);
+    border-radius: 40px;
+    padding: 8px;
+    right: 6px;
+    position: relative;
+	cursor: pointer;
+	transition: box-shadow .2s;
+}
+
+.scrollbar .scrollbar-thumb:hover {
+	--outline: var(--accent);
 }
