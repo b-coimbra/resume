@@ -14,7 +14,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	height: 100vh;
-	padding: 1%
+	padding: 1%;
+	background: #ececec url('./images/pattern.png') center repeat;
 }
 
 #table-of-contents,
@@ -36,6 +37,9 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	background: white;
 }
 
 #content {
@@ -43,8 +47,6 @@ body {
 	padding: 1% 5% 0;
 	height: 100%;
 	max-width: inherit;
-	border: 1px solid #c7c7c7;
-	border-radius: 3px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
