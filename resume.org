@@ -1,5 +1,5 @@
 #+OPTIONS: html-style:nil html-postamble:nil
-#+AUTHOR: index (github.com/0-l)
+#+AUTHOR: index (github.com/b-coimbra)
 #+INFOJS_OPT: view:info toc:nil path:./lib/script.js
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./lib/style.css" />
 #+EXPORT_FILE_NAME: index.html
@@ -85,8 +85,8 @@
 	:HTML_CONTAINER_CLASS: github info-description
 	:END:
 
-	#+ATTR_HTML: :link https://github.com/0-l
-	0-l
+	#+ATTR_HTML: :link https://github.com/b-coimbra
+	b-coimbra
 
 ** Languages
    :PROPERTIES:
