@@ -93,13 +93,13 @@
    :HTML_CONTAINER_CLASS: info-item public-keys
    :END:
 
-*** gpg
+*** pgp
 	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: gpg info-description link
+	:HTML_CONTAINER_CLASS: pgp info-description link
 	:END:
 
 	#+ATTR_HTML: :link https://pgp.mit.edu/pks/lookup?op=vindex&search=0x057BC47AE1082693
-	GPG 0xE1082693
+	PGP 0xE1082693
 
 ** Languages
    :PROPERTIES:
