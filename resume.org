@@ -98,7 +98,7 @@
 	:HTML_CONTAINER_CLASS: pgp info-description link
 	:END:
 
-	#+ATTR_HTML: :link https://pgp.mit.edu/pks/lookup?op=vindex&search=0x057BC47AE1082693
+	#+ATTR_HTML: :link https://github.com/b-coimbra.gpg
 	PGP 0xE1082693
 
 ** Languages
