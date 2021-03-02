@@ -74,7 +74,7 @@
 
 *** linkedin
 	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: linkedin info-description
+	:HTML_CONTAINER_CLASS: linkedin info-description link
 	:END:
 
 	#+ATTR_HTML: :link https://linkedin.com
@@ -82,11 +82,24 @@
 
 *** github
 	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: github info-description
+	:HTML_CONTAINER_CLASS: github info-description link
 	:END:
 
 	#+ATTR_HTML: :link https://github.com/b-coimbra
 	b-coimbra
+
+** Public Keys
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: info-item public-keys
+   :END:
+
+*** gpg
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: gpg info-description link
+	:END:
+
+	#+ATTR_HTML: :link https://pgp.mit.edu/pks/lookup?op=vindex&search=0x057BC47AE1082693
+	GPG 0xE1082693
 
 ** Languages
    :PROPERTIES:
