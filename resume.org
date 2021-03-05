@@ -31,7 +31,7 @@
 
    August 24th, 1988
 
-   Portuguese - Brasil
+   Portuguese - Brazil
 
 ** Address
    :PROPERTIES:
@@ -58,7 +58,8 @@
 	:HTML_CONTAINER_CLASS: email info-description
 	:END:
 
-	mail@gmail.com
+	#+ATTR_HTML: :link mailto:me@metaphoric.dev
+	me@metaphoric.dev
 
 *** phone
 	:PROPERTIES:
@@ -88,6 +89,14 @@
 	#+ATTR_HTML: :link https://github.com/b-coimbra
 	b-coimbra
 
+*** github
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: personal-website info-description link
+	:END:
+
+	#+ATTR_HTML: :link http://metaphoric.dev
+	metaphoric.dev
+
 ** Public Keys
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: info-item public-keys
@@ -106,37 +115,45 @@
    :HTML_CONTAINER_CLASS: info-item languages
    :END:
 
-   - *Portuguese*: native
-   - *English*: advanced
+   - *pt-BR* native
+   - *English* C1
 
 * Timeline
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: timeline
   :END:
 
-** Massachussetts Institute of Technology
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: timeline-item now
-   :END:
+** Actminds
+	 :PROPERTIES:
+	 :HTML_CONTAINER_CLASS: timeline-item now
+	 :END:
 
-   #+ATTR_HTML: :date 2017 - now
-   Computer Science degree
+	 #+ATTR_HTML: :date 2019 - now
+	 Full Time Software Engineer
 
-** Microsoft
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: timeline-item
-   :END:
+** Programmer's Beyond IT
+	 :PROPERTIES:
+	 :HTML_CONTAINER_CLASS: timeline-item
+	 :END:
 
-   #+ATTR_HTML: :date 2015 - 2016
-   Internship
+	 #+ATTR_HTML: :date 2017 - 2019
+	 Internship
 
-** Le Wagon
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: timeline-item
-   :END:
+** Fatec
+	 :PROPERTIES:
+	 :HTML_CONTAINER_CLASS: timeline-item education
+	 :END:
 
-   #+ATTR_HTML: :date 2014 - 2016
-   Coding bootcamp
+	 #+ATTR_HTML: :date 2015 - 2016
+	 Systems Analysis Degree
+
+** Etec
+	 :PROPERTIES:
+	 :HTML_CONTAINER_CLASS: timeline-item
+	 :END:
+
+	 #+ATTR_HTML: :date 2014 - 2016
+	 Web Development technician cert
 
 * Knowledge
   :PROPERTIES:
@@ -149,25 +166,28 @@
 
   I had my fair share of working with SCRUM for several sprint cycles.
 
+* Skills
+  :PROPERTIES:
+  :CUSTOM_ID: skills
+  :END:
+
+  - *Git*
+  - *Linux*
+  - *.NET*
+  - *JS/TS*
+  - *Angular*
+  - *Docker*
+
 * Certificates
   :PROPERTIES:
   :CUSTOM_ID: certificates
   :END:
 
    #+ATTR_HTML: :certificate-rank gold
-   Advanced algorithms
+	 Azure
 
    #+ATTR_HTML: :certificate-rank silver
    Cybersec
 
    #+ATTR_HTML: :certificate-rank bronze
    Databases
-* Skills
-  :PROPERTIES:
-  :CUSTOM_ID: skills
-  :END:
-
-  - *Git* Version control
-  - *Linux* SSH, terminal tools et al
-  - *Photoshop* Prototyping, general design.
-  - *Docker* Managing microsservices
