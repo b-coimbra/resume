@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@100;200;400&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
@@ -62,7 +62,7 @@ body.loading::before {
 		max-width: 1000px;
 		margin: 0 auto;
 		position: relative;
-		border: 10px solid #e2e2e2;
+		border: 5px dashed #dcdcdc;
 		border-radius: 4px;
 		background: white;
 }
@@ -194,6 +194,10 @@ body.loading::before {
     width: 6px;
     height: 6px;
     left: 78px;
+}
+
+.timeline-item:last-child > div p::before {
+	top: -18px;
 }
 
 .timeline-item:not(:last-child).education::before {
@@ -527,4 +531,46 @@ body.loading::before {
 
 #text-certificates > p[certificate-rank=bronze]::before {
 		background: url('../resources/certificate-bronze.png') no-repeat center center / 80px;
+}
+
+#text-projects {
+	counter-reset: projects-counter;
+}
+
+#text-projects > ul li {
+	font-size: 9pt;
+	list-style: none;
+	letter-spacing: .4px;
+}
+
+#text-projects > ul li:not(:last-child) {
+	margin-bottom: 3%;
+}
+
+#text-projects > ul li b {
+	display: block;
+	font-size: 10pt;
+	margin-bottom: 8px;
+}
+
+#text-projects > ul li::before {
+	counter-increment: projects-counter;
+	content: counter(projects-counter);
+	font-size: 22pt;
+    float: left;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+#text-projects > ul li b i {
+	content: 'Ruby';
+    color: #505050;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 7pt;
+    font-style: normal;
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
 }

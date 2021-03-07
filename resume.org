@@ -3,7 +3,7 @@
 #+INFOJS_OPT: view:info toc:nil path:./lib/script.js
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./lib/style.css" />
 #+EXPORT_FILE_NAME: index.html
-#+TITLE: resume
+#+TITLE: Bruno Coimbra's Resume
 
 * Header
   :PROPERTIES:
@@ -22,7 +22,7 @@
 	:HTML_CONTAINER_CLASS: short-description
 	:END:
 
-	Full-stack developer
+	Software Engineer
 
 ** Birthday/Nacionality
    :PROPERTIES:
@@ -176,7 +176,18 @@
   - *.NET*
   - *JS/TS*
   - *Angular*
+  - *Shell Scripting*
   - *Docker*
+
+* Projects
+  :PROPERTIES:
+  :CUSTOM_ID: projects
+  :END:
+
+  - *sushi.rb /ruby/ /shell/ /unix/* Simple Unix Shell
+  - *Simp'o'matic /ts/ /bot/ /discord/* Discord bot written in Typescript
+  - *dawn /html/ /css/* Clean looking startpage
+  - *ionic2-foodApp /ionic/ /app/ /ts/* Food app front-end made with ionic2
 
 * Certificates
   :PROPERTIES:
