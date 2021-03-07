@@ -162,9 +162,10 @@
 
   I have an aptitude for designing prototypes and mockups for websites and applications.
   Thus, for now, the path of a web developer I follow.
-  I'm also passionate about writing little shell utilities and automation tools to make life easier.
+  I'm also passionate about writing little shell utilities and automation tools for productivity.
 
   I had my fair share of working with SCRUM for several sprint cycles.
+  Recently gained some experience with Azure Cloud Services.
 
 * Skills
   :PROPERTIES:
