@@ -1,0 +1,12 @@
+#+TITLE: Resume TODO list
+
+* [0/7] Tasks
+  - [ ] Make it responsive
+  - [ ] Fix load spinner being removed on export
+  - [ ] Avatar spin to reveal QR code
+  - [ ] add "mailto" in email section
+  - [ ] Create a web component for the header logo
+  - [ ] Fetch list of projects from Github API (pinned repositories)
+  - [ ] Settings (flags) to change accent colors
+  - [ ] Links to certificates and embedded view
+  - [ ] Add eth pub key

@@ -62,7 +62,7 @@ body.loading::before {
 	max-width: 1000px;
 	margin: 0 auto;
 	position: relative;
-	border: 10px dashed #f3f3f3;
+	border: 10px dashed #efefef;
 	border-radius: 4px;
 	background: white;
 	box-shadow: inset 0 0 0 1px #b1b1b1;
