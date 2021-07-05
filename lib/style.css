@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@100;300;200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
@@ -10,18 +10,11 @@
     padding: 0;
     box-sizing: border-box;
     scrollbar-width: none;
-
-    text-rendering: optimizeLegibility;
-    text-rendering: geometricPrecision;
-    font-smooth: always;
-    font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 	height: 100vh;
 	padding: 1%;
 	background: #ececec url('./images/pattern.png') center repeat;
@@ -262,16 +255,6 @@ body.loading::before {
 	letter-spacing: .8px;
 }
 
-/* #text-skills > ul li b::after { */
-/* 		content: ' — '; */
-/* 		display: block; */
-/* 		float: right; */
-/* 		margin: 0 .5em; */
-/* 		font-weight: 100; */
-/* 		color: #000; */
-/* 		opacity: .3; */
-/* } */
-
 #text-skills > ul {
 	display: flex;
 }
@@ -282,7 +265,6 @@ body.loading::before {
 	font-size: 10pt;
 	margin: 0 10px 0 0;
 	letter-spacing: .8px;
-	/* background: #eaeaea; */
 	border-radius: 3px;
 	color: black;
 	text-transform: uppercase;
