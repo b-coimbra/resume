@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@100;300;200;400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
@@ -6,9 +6,18 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
@@ -100,7 +109,7 @@ body.loading::before {
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: .8px;
 	font-size: 9.5pt;
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 2em;
 }
