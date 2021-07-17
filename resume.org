@@ -22,7 +22,7 @@
 	:HTML_CONTAINER_CLASS: short-description
 	:END:
 
-	Software Engineer
+    Jr. Software Engineer
 
 ** Birthday/Nacionality
    :PROPERTIES:
@@ -59,7 +59,7 @@
 	:END:
 
 	#+ATTR_HTML: :link mailto:me@metaphoric.dev
-	me@metaphoric.dev
+	mail@metaphoric.dev
 
 *** phone
 	:PROPERTIES:
@@ -72,14 +72,6 @@
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: info-item social
    :END:
-
-*** linkedin
-	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: linkedin info-description link
-	:END:
-
-	#+ATTR_HTML: :link https://linkedin.com
-	no-one
 
 *** github
 	:PROPERTIES:
@@ -123,8 +115,8 @@
    :HTML_CONTAINER_CLASS: info-item languages
    :END:
 
-   - *pt-BR* native
-   - *English* C1
+   - *PT-BR* native
+   - *EN-US* grade C1
 
 * Timeline
   :PROPERTIES:
@@ -205,10 +197,10 @@
   :END:
 
    #+ATTR_HTML: :certificate-rank gold
-	 Azure
+   *AZ-900*
 
-   #+ATTR_HTML: :certificate-rank silver
-   Cybersec
+   #+ATTR_HTML: :certificate-rank silver :class not-acquired
+   *AZ-200*
 
-   #+ATTR_HTML: :certificate-rank bronze
-   Databases
+   #+ATTR_HTML: :certificate-rank bronze :class not-acquired
+   *Exam 70-483*

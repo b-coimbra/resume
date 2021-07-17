@@ -298,6 +298,11 @@ body.loading::before {
 	cursor: pointer;
 }
 
+.link p b,
+.languages b {
+    letter-spacing: 0;
+}
+
 .info-description h3 {
     display: none;
 }
@@ -500,7 +505,7 @@ body.loading::before {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin-top: 120px;
+	margin-top: 2em;
 }
 
 #text-certificates p::before {
@@ -512,16 +517,21 @@ body.loading::before {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
+    transition: transform .1s ease-in-out;
 }
 
 #text-certificates p:hover::before {
-	filter: opacity(.5);
+    transform: scale(1.2);
 }
 
 #text-certificates p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 	position: relative;
 	max-width: 200px;
 	width: 200px;
+    height: 100px;
 	text-align: center;
 	font-size: 8pt;
 	text-transform: uppercase;
@@ -580,4 +590,9 @@ body.loading::before {
 	margin-right: 5px;
 	border-radius: 6px;
 	border: 1px solid #dcdcdc;
+}
+
+.not-acquired {
+    opacity: .4;
+    cursor: no-drop;
 }
