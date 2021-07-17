@@ -55,17 +55,18 @@
 
 *** email
 	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: email info-description
+	:HTML_CONTAINER_CLASS: email info-description link
 	:END:
 
-	#+ATTR_HTML: :link mailto:me@metaphoric.dev
+	#+ATTR_HTML: :link mailto:mail@metaphoric.dev
 	mail@metaphoric.dev
 
 *** phone
 	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: phone info-description
+	:HTML_CONTAINER_CLASS: phone info-description link
 	:END:
 
+	#+ATTR_HTML: :link tel:+1234567890
 	(12) 3456-7890
 
 ** Social
