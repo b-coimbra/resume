@@ -493,7 +493,8 @@ body.loading::before {
 	padding: 8px;
 	right: 6px;
 	position: relative;
-	cursor: pointer;
+	cursor: grab;
+    user-select: none;
 	transition: box-shadow .2s;
 }
 
