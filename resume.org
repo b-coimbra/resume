@@ -66,7 +66,7 @@
 	:HTML_CONTAINER_CLASS: phone info-description
 	:END:
 
-	(99) 9999-9999
+	(12) 3456-7890
 
 ** Social
    :PROPERTIES:
@@ -108,7 +108,15 @@
 	:END:
 
 	#+ATTR_HTML: :link https://github.com/b-coimbra.gpg
-	PGP 0xE1082693
+	*PGP* 0xE1082693
+
+*** crypto
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: eth info-description link
+    :END:
+
+    #+ATTR_HTML: :link https://pastebin.com/raw/9KM8LSmc
+    *ETH* 0xFC55..C9aB
 
 ** Languages
    :PROPERTIES:

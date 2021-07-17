@@ -53,6 +53,7 @@ body.loading::before {
 .header h2[id^='org'],
 #postamble .validation,
 .person-name > h3,
+.short-description > h3,
 .short-description > h4,
 .title {
 	display: none;
@@ -297,6 +298,10 @@ body.loading::before {
 	cursor: pointer;
 }
 
+.info-description h3 {
+    display: none;
+}
+
 .info-description.link:hover::before {
 	color: var(--accent);
 }
@@ -305,6 +310,8 @@ body.loading::before {
 	font-family: FontAwesome;
 	float: left;
 	margin: 3px 10px 3px 0;
+    width: 10px;
+    text-align: right;
 }
 
 .email::before {
@@ -328,7 +335,14 @@ body.loading::before {
 }
 
 .pgp::before {
-	content: '\f084';
+	content: '\f023';
+}
+
+.eth::before {
+    content: 'Ξ';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
 }
 
 .avatar {
