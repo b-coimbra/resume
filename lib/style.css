@@ -17,7 +17,7 @@ body {
     font-weight: 400;
 	height: 100vh;
 	padding: 1%;
-	background: #ececec url('./images/pattern.png') center repeat;
+	background: #ececec url('../resources/pattern.png') center repeat;
 }
 
 body.loading {
@@ -379,7 +379,7 @@ body.loading::before {
 	display: block;
 	position: absolute;
 	top: 0;
-	opacity: 0;
+    opacity: 0;
 	transition: opacity .3s;
 }
 
@@ -539,15 +539,15 @@ body.loading::before {
 }
 
 #text-certificates > p[certificate-rank=gold]::before {
-	background: url('../resources/certificate-gold.png') no-repeat center center / 80px;
+	background: url('../resources/icons/certificate-gold.png') no-repeat center center / 80px;
 }
 
 #text-certificates > p[certificate-rank=silver]::before {
-	background: url('../resources/certificate-silver.png') no-repeat center center / 80px;
+	background: url('../resources/icons/certificate-silver.png') no-repeat center center / 80px;
 }
 
 #text-certificates > p[certificate-rank=bronze]::before {
-	background: url('../resources/certificate-bronze.png') no-repeat center center / 80px;
+	background: url('../resources/icons/certificate-bronze.png') no-repeat center center / 80px;
 }
 
 #text-projects {
