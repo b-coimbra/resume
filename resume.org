@@ -161,12 +161,12 @@
   :HTML_CONTAINER_CLASS: knowledge
   :END:
 
-  I have an aptitude for designing prototypes and mockups for websites and applications.
-  Thus, for now, the path of a web developer I follow.
-  I'm also passionate about writing little shell utilities and automation tools for productivity.
+  Junior software developer with 3+ years of professional experience, currently developing solutions with .NET Core and Azure Cloud services.
+  Had a fair share of working with SCRUM for several sprint cycles.
 
-  I had my fair share of working with SCRUM for several sprint cycles.
-  Recently gained some experience with Azure Cloud Services.
+  Experience with creating productivity-driven shell utilities and automation tools.
+
+  Delivered a modern integration platform for an investment bank which is the largest source of development financing for Latin America and the Caribbean.
 
 * Skills
   :PROPERTIES:
