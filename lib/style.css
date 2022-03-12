@@ -605,6 +605,31 @@ body.loading::before {
     cursor: no-drop;
 }
 
+.send-email {
+    outline: 0;
+    border: 0;
+    padding: 1em;
+    background: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 1em calc(1% + 10px) 0;
+    cursor: pointer;
+}
+
+.send-email:hover {
+    background: white;
+}
+
+.send-email > a {
+    box-shadow: 0 0 0 1px rgb(177 177 177);
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 600 10pt 'Roboto', sans-serif;
+    color: #585858;
+    padding: 1em;
+}
+
 @media (max-width: 1000px) {
     #main {
         border: 0;
