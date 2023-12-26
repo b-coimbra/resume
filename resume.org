@@ -198,10 +198,10 @@
   :END:
 
    #+ATTR_HTML: :certificate-rank gold
+   *AZ-204*
+
+   #+ATTR_HTML: :certificate-rank bronze
    *AZ-900*
 
    #+ATTR_HTML: :certificate-rank silver :class not-acquired
-   *AZ-200*
-
-   #+ATTR_HTML: :certificate-rank bronze :class not-acquired
-   *Exam 70-483*
+   *LPIC-1*
