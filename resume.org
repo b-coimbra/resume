@@ -22,7 +22,7 @@
 	:HTML_CONTAINER_CLASS: short-description
 	:END:
 
-    Jr. Software Engineer
+    Software Engineer
 
 ** Birthday/Nacionality
    :PROPERTIES:
@@ -161,24 +161,23 @@
   :HTML_CONTAINER_CLASS: knowledge
   :END:
 
-  Junior software developer with 3+ years of professional experience, currently developing solutions with .NET Core and Azure Cloud services.
-  Had a fair share of working with SCRUM for several sprint cycles.
-
-  Experience with creating productivity-driven shell utilities and automation tools.
+  Software engineer with 4+ years of professional experience, currently developing solutions with .NET Core and Azure Cloud services.
 
   Delivered a modern integration platform for an investment bank which is the largest source of development financing for Latin America and the Caribbean.
+
+  Developed solutions to aid US healthcare systems responsible for providing oncology treatments.
 
 * Skills
   :PROPERTIES:
   :CUSTOM_ID: skills
   :END:
 
+  - *.NET Core*
+  - *Azure*
+  - *Angular*
   - *Git*
   - *Linux*
-  - *ASP.NET Core*
-  - *.NET*
   - *JS/TS*
-  - *Angular*
   - *Shell Scripting*
   - *Docker*
 
@@ -188,7 +187,7 @@
   :END:
 
   - *sushi.rb /ruby/ /shell/ /unix/* Simple Unix Shell
-  - *Simp'o'matic /ts/ /bot/ /discord/* Discord bot written in Typescript
+  - *Simp''matic /ts/ /bot/ /discord/* Discord bot written in Typescript
   - *dawn /html/ /css/* Clean looking startpage
   - *ionic2-foodApp /ionic/ /app/ /ts/* Food app front-end made with ionic2
 
